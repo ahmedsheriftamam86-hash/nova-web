@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>نوفا</title>
+<link rel="stylesheet" href="wii.css">
+<link rel="icon" type="image/png" href="no.jpg">
+</head>
+<body>
+<canvas id="canvas"></canvas>
+
+<main>
+  <section class="first">
+    <h1>انه وقت الابداع</h1>
+    <h3>ابدع مع نوفا التطبيق الامثل للفنون والرسم</h3>
+    <button onclick="document.querySelector('.second').scrollIntoView({behavior: 'smooth'})">
+      ابدأ الان
+    </button>
+  </section>
+
+  <section class="second">
+    <h1>اطلق العنان لمواهبك مع نوفا</h1>
+    <h3>
+      نوفا هو تطبيق عملي للفنون والرسم يمكنك من انشاء رسومات بالغة في التعقيد وبه تحديث جديد وهو القوالب يمكنك تحد القوالب التي تشاء
+    </h3>
+       <div class="squares"></div>
+    <!-- ✅ زرار يرجع للأول -->
+    <button onclick="document.querySelector('.first').scrollIntoView({behavior: 'smooth'})">
+      رجوع 
+    </button>
+     <div class="scroll-arrow" onclick="scrollToNextSection()">⬇️</div>
+  </section>
+  <section class="download">
+    <h1>حمل النموذج الاولي لتطبيق نوفا المجاني</h1>
+    <h3>استمتع بالتجربة الاولي وكن من الاوائل في التنزيل</h3>
+     <button id="download-btn">حمل الآن</button>
+
+  </section>
+</main>
+
+<script src="wee.js"></script>
+</body>
+</html>
